@@ -1,8 +1,12 @@
 import React from 'react'
+import GridLayout from './GridLayout';
 
 const LIst_of_data = () => {
   return (
-    <div>LIst_of_data</div>
+    <>
+
+      <GridLayout/>
+    </>
   )
 }
 

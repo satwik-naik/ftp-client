@@ -28,8 +28,10 @@ const Home = () => {
      <button className='bg-black text-white py-5 px-[5rem] rounded-[5rem] font-extrabold' onClick={()=>{
       navigate("/upload")
      }}>Upload File !</button>
-     <button className='bg-black text-white py-5 px-[5rem] rounded-[5rem] font-extrabold'>Download File</button>
-     <button className='bg-black text-white py-5 px-[5rem] rounded-[5rem] font-extrabold'>List Of Files</button>
+     <button className='bg-black text-white py-5 px-[5rem] rounded-[5rem] font-extrabold' onClick={()=>{
+      navigate("/lists")
+     }}>Download File</button>
+     {/* <button className='bg-black text-white py-5 px-[5rem] rounded-[5rem] font-extrabold'>List Of Files</button> */}
      </div>
      </div>
 
