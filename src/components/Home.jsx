@@ -22,7 +22,7 @@ const Home = () => {
         <div className='h-[22rem] w-[22rem] bg-black rounded-full bg-gradient-to-r from-yellow-500 to-red-500 absolute bottom-4 right-0 '></div>
         <button className='absolute text-red left-10 top-10 border-2  border-red-500 py-5 px-[3rem] rounded-[5rem] font-extrabold text-red-500' onClick={Logout}>{(user != null)?"Log out":"Log in" }</button>
      <div className='flex flex-col '>
-     <h1 className='font-semibold text-[5rem]'>Hi <span className='text-orange-500'>{(user != null)?user:"null" }</span></h1>
+     <h1 className='font-semibold text-[5rem]'>Hi <span className='text-orange-500'>{(user != null)?user:"null" }..</span> </h1>
      <h1 className='font-semibold text-[9rem]'>Welcome to Ftp Server</h1>
      <div className='flex py-10 flex-row  justify-evenly items-center mt-8'>
      <button className='bg-black text-white py-5 px-[5rem] rounded-[5rem] font-extrabold' onClick={()=>{

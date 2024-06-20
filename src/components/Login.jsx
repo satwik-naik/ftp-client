@@ -10,7 +10,7 @@ const Login = () => {
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+   try{
     const result = await axios.post(
       "http://localhost:5000/login",
       {
@@ -34,6 +34,11 @@ const Login = () => {
     } else {
       alert("Login Failed....");
     }
+    
+   }catch(err){
+    alert("password or email wrong")
+   }
+
   };
 
   return (
